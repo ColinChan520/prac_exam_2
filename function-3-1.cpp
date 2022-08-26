@@ -4,7 +4,7 @@ using namespace std;
 int negative_count(int *vals,int len){
     int count = 0;
     for (int i = 0; i < len; i++){
-        if (vals[i] <= 0){
+        if (vals[i] < 0){
             count++;
         }
     }
